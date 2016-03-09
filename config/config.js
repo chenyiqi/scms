@@ -5,5 +5,6 @@ if(process && process.env && process.env.NODE_ENV) {
 } else {
 	config = require('./env/development.js');
 }
+console.log(config);
 
 module.exports = config; 
